@@ -1,0 +1,61 @@
+<div id="section6" (click)="resultFunction()" class="container">
+  <div class="text">
+    <img class="chel-vachkax" src="/assets/svg/sherlok.png" alt="Private Investigator">
+
+    <div class="text-content">
+      <h2 class="h2-zarabotai">Заработай на поиске каналов!</h2>
+      <p>
+        Даже если у тебя нет своего YouTube канала, ты все равно можешь заработать, сотрудничая со мной. 
+        Поиск каналов для продажи открывает такую возможность. Все, что тебе нужно, — это найти канал,
+        который подходит по <a href="#section3" (click)="onNavClick($event, 'section3')" class="criteria-link">следующим критериям</a>,
+        и договориться с владельцем канала. Ты должен стать, образно говоря, "сыщиком". Способов найти каналы 
+        может быть много, главное — никому не мешать и ничего не нарушать. Нет мыслей? Боишься, что не сможешь? 
+        Тогда именно для тебя я буду подготавливать различные подробные инструкции. Ты можешь найти их здесь.
+      </p>
+    </div>
+  </div>
+
+  <div class="kalklator">
+    <div class="pervaiachast">
+      <div class="img-text">
+        <img src="https://i0.wp.com/mennicapoznanska.com/wp-content/uploads/2022/09/ranking-najrzadszych-polskich-monet.jpg?fit=668%2C673&ssl=1" alt="Money Stacks" width="60" height="60">
+        <h2>Калькулятор дохода</h2>
+      </div>
+      
+      <div class="input-div">
+        <div class="input-group">
+          <h3>Стоимость найденных каналов за месяц</h3>
+          <div class="input-range-container">
+            <input (click)="resultFunction()" [(ngModel)]="inputRange1" class="input-range1" type="range" min="1000" max="900000">
+            <input (keyup.enter)="resultFunction()" [(ngModel)]="inputRange1" class="input-text1" type="text">
+          </div>
+          <div class="range-values">
+            <p>1000</p>
+            <p>900000</p>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <h3>Средний процент выплаты</h3>
+          <div class="input-range-container">
+            <input (click)="resultFunction()" [(ngModel)]="inputRange2" class="input-range2" type="range" min="5" max="20">
+            <input (keyup.enter)="resultFunction()" [(ngModel)]="inputRange2" class="input-text2" type="text">
+          </div>
+          <div class="range-values">
+            <p>5%</p>
+            <p>20%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vtarachast">
+      <h2 class="your-income">Ваш доход в месяц</h2>
+      <h3 class="income-amount">{{ yourMany }}₽</h3>
+      <ul>
+        <li>Калькулятор рассчитывает стоимость купленных каналов и средний выплаченный процент от их стоимости, определяя доход за месяц.</li>
+        <li>Пример: ты нашел каналы, сделки прошли успешно, и я потратил 300 000 рублей на эти каналы. Если я заплатил тебе 10%, ты получил 30 000 рублей.</li>
+      </ul>
+    </div>
+  </div>
+</div> 

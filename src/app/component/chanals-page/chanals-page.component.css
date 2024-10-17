@@ -1,0 +1,201 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+
+h1, h2{
+    font-family: 'Uni Sans', sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.blok{
+    width: 400px; 
+    border-radius: 20px;
+     height: 200px; 
+    background: linear-gradient(to right, rgb(171, 37, 71), rgb(255, 29, 86), rgb(171, 37, 71));
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blok:hover{
+    transition: all 1s ease;
+    transform: scale(1.1);
+    box-shadow: rgb(255, 29, 86) 0px 17px 30px -7px;
+}
+
+
+.img-peopel{
+    width: 70px;
+    height: 70px;
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 380px;
+    height: 60px;
+    
+}
+
+.img-div2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 380px;
+    height: 75px;
+    
+}
+
+
+.text-2blok {
+    padding: 20px;
+   font-size: 35px
+}
+
+.pervaia h2{
+    font-size: 27px;
+    padding: 15px;
+}
+
+
+.img-many{
+    width: 80px;
+    height: 80px;
+}
+
+.img-sub{
+    width: 110px;
+    height: 110px;
+}
+
+.text-3blok{
+   padding: 23px;
+   font-size: 34px;
+
+}
+
+ @media (min-width: 300px) and (max-width: 1000px) {
+
+     .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+     }
+
+     .content{
+        flex-direction: column;
+        gap: 20px
+     }
+     
+     .text-h1{
+       font-size: 35px;
+     }
+
+    .text-2blok{
+        font-size: 27px;
+    }
+     
+    .text-3blok{
+        font-size: 23px;
+    }
+
+    .pervaia h2{
+        font-size: 20px;
+        padding: 15px;
+    }
+
+     .blok{
+        width: 90%;
+        height: auto;
+
+     }
+
+     .img-div{
+        width: 100%;
+        align-items: center;
+     }
+
+     .img-div2{
+        width: 100%;
+        align-items: center;
+     }
+    
+     .img-peopel{
+        width: 70px;
+        height: 54px;
+     } 
+
+     .img-many{
+        width: 70px;
+        height: 60px;
+     }
+
+     .img-sub{
+        width: 100px;
+        height: 80px;
+     }
+
+    
+     .text{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+     }
+
+} 
+
+@media (min-width: 395px) and (max-width: 466px) {
+    .h2-ot-100{
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 466px) and (max-width: 517px) {
+    .h2-ot-100{
+        font-size: 27px;
+    }
+
+    .text-2blok{
+        font-size: 30px;
+    }
+
+    .text-3blok{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 517px) {
+    .h2-ot-100{
+        font-size: 30px;
+    }
+
+    .text-2blok{
+        font-size: 34px;
+    }
+
+    .text-3blok{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 571px) and (max-width: 661px) {
+    .h2-ot-100{
+        font-size: 35px;
+    }
+}

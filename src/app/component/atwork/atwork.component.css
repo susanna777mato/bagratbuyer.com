@@ -1,0 +1,249 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+    min-height: 100vh;
+  }
+  
+  .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+
+
+  .text, p {
+    width: 75%;
+  }
+
+  a{
+    color: rgb(255, 29, 86) ;
+  }
+
+  h2,h3,p{
+    font-family: 'Uni Sans', sans-serif;
+  }
+
+
+  .input-range1, .input-range2 {
+    width: 80%;
+  }
+
+  
+  .h2-zarabotai {
+    font-size: 50px;
+  }
+  
+  .kalklator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .pervaiachast, .vtarachast {
+    border-radius: 16px;
+    background-color: rgb(242, 243, 250);
+    box-shadow: rgba(108, 107, 158, 0.26) 0px 6px 20px 0px;
+  }
+  
+  .pervaiachast {
+    width: 700px;
+    height: 350px;
+  }
+  
+  .img-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    padding-left: 35px;
+    width: 100%;
+  }
+  
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 50px;
+    height: 250px;
+  }
+  
+  .input-range-container {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .range-values {
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+  }
+  
+  .input-text1, .input-text2 {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  .vtarachast {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    justify-content: space-around;
+    width: 400px;
+    height: 350px;
+  }
+
+  .text-content p {
+    padding-top: 15px;
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .income-amount{
+    font-size: 50px;
+  }
+  
+  .chel-vachkax {
+    width: 350px;
+    height: 350px;
+  }
+  
+  @media (max-width: 1000px) {
+    .h2-zarabotai {
+      font-size: 20px;
+      margin-bottom: 10;
+      margin-right: 20px;
+      text-align: center;
+    }
+
+    .input-group h3{
+      font-size: 12px;
+    }
+
+   .income-amount{
+    font-size: 30px;
+   }
+    
+    .input-text1, .input-text2{
+      margin-right: 20px;
+      width: 100px;
+      height: 30px;
+      font-size: 15px;
+      padding: 5px;
+    }
+
+    .vtarachast{
+      margin-bottom: 20px;
+    }
+  
+    .text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+      gap: 15px;
+    }
+
+
+
+    .text-content{
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+    }
+
+    .input-range-container{
+      gap: 20px;
+    }
+
+    .range-values{
+      width: 50%;
+    }
+  
+
+    .text-content p {
+      font-size: 12px;
+      text-align: center;
+       padding: 3px;
+       margin-bottom: 10px;
+    }
+  
+    .kalklator {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .chel-vachkax{
+      width: 70%;
+      height: auto;
+    
+    }
+  
+    .pervaiachast {
+      width: 95%;
+      height: auto;
+    }
+
+  
+    .vtarachast {
+      width: 95%;
+      height: auto;
+    }
+
+    @media (min-width: 370px) and (max-width: 500px) {
+      .input-range1, .input-range2{
+        width: 100%;
+   }
+      .range-values{
+        width: 50% ;
+      }
+      p{
+        font-size: 15px;
+      }
+    
+      .h2-zarabotai{
+        font-size: 35px;
+      }
+    }
+
+    @media (min-width:500px) and (max-width: 1000px){
+      .input-range1, .input-range2{
+        width: 70%;
+   }
+
+   .range-values{
+    width: 65% ;
+  }
+
+   
+  .chel-vachkax{
+    width: 50%;
+  }
+     
+    }
+  
+    @media (min-width:550px) and (max-width: 1000px) {
+        p{
+          font-size: 17px;
+        }
+
+        .h2-zarabotai{
+          font-size: 40px;
+        }
+    }
+
+    
+
+  } 
+
