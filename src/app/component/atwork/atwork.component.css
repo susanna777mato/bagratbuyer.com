@@ -83,7 +83,8 @@
   .range-values {
     display: flex;
     justify-content: space-between;
-    width: 67%;
+    width: 730px;
+    
   }
   
   .input-text1, .input-text2 {

@@ -78,13 +78,15 @@ a:hover {
 }
 
 .p-text{
-    font-size: 20px;
+  
+    font-size: 35px;
 }
 
 .container {
+   padding-top: 6%;
     display: flex;
      justify-content: center;
-     gap: 15%;
+     gap: 12%;
     align-items: center;
     height: 100vh;
     
@@ -148,7 +150,7 @@ a:hover {
         } 
 
        .p-text{
-        font-size: 27px;
+        font-size: 20px;
        }
 
         .container {
@@ -175,7 +177,7 @@ a:hover {
           }
 
             .img-me {
-             width: 60%;
+             width: 75%;
              height: auto;
           }  
           .container{
@@ -187,12 +189,10 @@ a:hover {
 
         @media (min-width: 340px) and (max-width: 356px){
              .img-me {
-                width: 60%;
+                width: 75%;
                 height: auto;
                
-              }  
-              
-               
+              }
 
                .container{
                 display: flex;
@@ -202,7 +202,7 @@ a:hover {
 
         @media (min-width: 357px) and (max-width: 380px){
               .img-me {
-                width: 200px;
+                width: 230px;
                 height: auto;
                
               }   
@@ -213,7 +213,7 @@ a:hover {
               
 
               .p-text{
-                 font-size: 30px;
+                 font-size: 25px;
               }
 
                .container{
@@ -228,6 +228,12 @@ a:hover {
                 gap: 50px;
               }
 
+              .img-me {
+                width: 220px;
+                height: auto;
+               
+              }
+
                 
               .zagalovok{
                 font-size: 45px;
@@ -235,19 +241,24 @@ a:hover {
               
 
               .p-text{
-                 font-size: 30px;
+                 font-size: 28px;
               }
         }
 
         @media (min-width: 385px){
               .img-me{
-                width: 45%;
+                width: 230px;
                 height: auto;
              } 
 
              .zagalovok{
+              font-size: 45px;
                 margin-top: 30px;
              }
+
+             .p-text{
+              font-size: 28px;
+           }
 
              .container{
                 display: flex;
@@ -267,7 +278,7 @@ a:hover {
               }
 
               .p-text{
-                font-size: 31px;
+                font-size: 28px;
               }
 
             
@@ -275,7 +286,7 @@ a:hover {
 
         @media (min-width: 409px)  { 
             .p-text{
-                font-size: 34px;
+                font-size: 28px;
             }
 
         }
@@ -292,7 +303,7 @@ a:hover {
               }
               
               .p-text{
-                font-size: 35px;
+                font-size: 30px;
                 padding-left: 25px;
               }
               

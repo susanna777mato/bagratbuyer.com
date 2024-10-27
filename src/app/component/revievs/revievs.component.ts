@@ -43,11 +43,36 @@ export class RevievsComponent implements OnInit {
         }
         ,
         1024:{
-          slidesPerView: 5
+          slidesPerView: 4
         },
 
       }
-    
     });
   }
-}
+
+  // images = [
+  //   { src: 'assets/img/telefon1.png' },
+  //   { src: 'assets/img/telefon2.png' },
+  //   { src: 'assets/img/telefon3.png' },
+  //   { src: 'assets/img/telefon4.png' },
+  //   { src: 'assets/img/telefon5.png' },
+  //   { src: 'assets/img/telefon6.png' },
+  //   { src: 'assets/img/telefon7.png' },
+  //   { src: 'assets/img/telefon8.png' },
+  // ];
+
+  isPopupVisible = false;
+  currentImageSrc = '';
+
+  openPopup(imageSrc: string): void {
+    this.currentImageSrc = imageSrc;
+    this.isPopupVisible = true;
+  }
+
+  closePopup(event?: MouseEvent): void {
+    if (event) {
+      event.stopPropagation();
+    }
+    this.isPopupVisible = false;
+  }
+}   

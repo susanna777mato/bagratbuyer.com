@@ -23,6 +23,10 @@ h2,h3,p{
     font-family: 'Uni Sans', sans-serif;
 }
 
+a{
+    color: rgb(255, 29, 86);;
+}
+
 
 .h2-position{
     position: absolute;
@@ -87,17 +91,7 @@ h3{
           padding: 10px;
    }
 
-   .border-right2{
-    border-right: 2px solid white; height: 310px; width: 50%;
-    height: 300px; display: flex; justify-content: center; flex-direction: row; align-items: center;  padding: 10px;
-   }
-
-   .border-left2{
-    border-right: 2px solid white; height: 300px; width: 50%;
-    height: 300px; display: flex; justify-content: center; flex-direction: row; align-items: center; gap: 20px; padding: 5px;
-
-   }
-
+  
 p{
     width: 300px;
     color: white;
