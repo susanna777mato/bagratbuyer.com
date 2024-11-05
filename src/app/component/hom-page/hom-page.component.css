@@ -107,7 +107,6 @@ a:hover {
   
   .text {
     font-family: "Montserrat", serif;
-    font-family: 'Roboto', Arial, sans-serif; 
   }
 
 
@@ -211,12 +210,12 @@ a:hover {
               }   
                 
               .zagalovok{
-                font-size: 45px;
+                font-size: 40px;
               }
               
 
               .p-text{
-                 font-size: 25px;
+                 font-size: 23px;
               }
 
                .container{
@@ -244,7 +243,7 @@ a:hover {
               
 
               .p-text{
-                 font-size: 28px;
+                 font-size: 23px;
               }
         }
 
@@ -260,7 +259,7 @@ a:hover {
              }
 
              .p-text{
-              font-size: 28px;
+              font-size: 23px;
            }
 
              .container{
@@ -281,7 +280,7 @@ a:hover {
               }
 
               .p-text{
-                font-size: 28px;
+                font-size: 23px;
               }
 
             
@@ -289,7 +288,7 @@ a:hover {
 
         @media (min-width: 409px)  { 
             .p-text{
-                font-size: 28px;
+                font-size: 23px;
             }
 
         }
@@ -306,7 +305,7 @@ a:hover {
               }
               
               .p-text{
-                font-size: 30px;
+                font-size: 26px;
                 padding-left: 25px;
               }
               
