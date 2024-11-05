@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { ServicesPageService } from 'src/app/services/services-page.service';
 
 @Component({
@@ -7,13 +7,20 @@ import { ServicesPageService } from 'src/app/services/services-page.service';
   styleUrls: ['./atwork.component.css']
 })
 export class AtworkComponent implements OnInit {
+   
+  @ViewChild('rangedoloor') rangedoloor!: ElementRef;
+
+  constructor(private scrollService: ServicesPageService,
+  ) {}
+
+
+
   
   yourMany = 50
   inputRange1: any = 1000
   inputRange2 = 5
- 
 
-  constructor(private scrollService: ServicesPageService) {}
+ 
 
   onNavClick(event: Event, elementId: string): void {
     event.preventDefault();
@@ -53,9 +60,7 @@ export class AtworkComponent implements OnInit {
  
  
     ngOnInit(): void {
-      if (+this.inputRange1 > 900000) {
-        this.inputRange1 = 900000
-      }
+      console.log("gogo")
     }
 
 }

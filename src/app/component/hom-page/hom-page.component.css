@@ -28,6 +28,7 @@ span {
 a{
   text-decoration: none;
   color: black;
+  font-family: "Montserrat", serif;
 }
 
 span:hover {
@@ -43,6 +44,7 @@ a:hover {
 .nik {
     cursor: pointer;
     font-size: 15px;
+    font-family: "Montserrat", serif;
 }
 
 .svg {
@@ -78,7 +80,7 @@ a:hover {
 }
 
 .p-text{
-  
+  font-family: "Montserrat", serif;
     font-size: 35px;
 }
 
@@ -95,6 +97,7 @@ a:hover {
  .zagalovok{
     font-size: 84px;
     margin: 0;
+    font-family: "Montserrat", serif;
   }
   
   .img-me {
@@ -103,7 +106,7 @@ a:hover {
   }
   
   .text {
-    
+    font-family: "Montserrat", serif;
     font-family: 'Roboto', Arial, sans-serif; 
   }
 

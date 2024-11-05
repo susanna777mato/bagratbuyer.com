@@ -22,7 +22,7 @@
         <h2>Калькулятор дохода</h2>
       </div>
       
-      <div class="input-div">
+      <div  class="input-div">
         <div class="input-group">
           <h3>Стоимость найденных каналов за месяц</h3>
           <div class="input-range-container">
@@ -30,8 +30,8 @@
             <input (keyup.enter)="resultFunction()" [(ngModel)]="inputRange1" class="input-text1" type="text">
           </div>
           <div class="range-values">
-            <p>1000</p>
-            <p>900000</p>
+            <span>1000</span>
+            <span>900000</span>
           </div>
         </div>
 
@@ -42,8 +42,8 @@
             <input (keyup.enter)="resultFunction()" [(ngModel)]="inputRange2" class="input-text2" type="text">
           </div>
           <div class="range-values">
-            <p>5%</p>
-            <p>20%</p>
+            <span>5%</span>
+            <span>20%</span>
           </div>
         </div>
       </div>

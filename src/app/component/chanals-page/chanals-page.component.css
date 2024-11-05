@@ -6,15 +6,15 @@
     height: 70%;
 }
 
-h1, h2{
-    font-family: 'Uni Sans', sans-serif;
-}
-
 .content{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
+}
+
+.text-h1{
+    font-family: "Montserrat", serif;
 }
 
 .blok{
@@ -62,7 +62,8 @@ h1, h2{
 
 .text-2blok {
     padding: 20px;
-   font-size: 35px
+   font-size: 35px;
+   
 }
 
 .pervaia h2{
@@ -84,7 +85,7 @@ h1, h2{
 .text-3blok{
    padding: 23px;
    font-size: 34px;
-
+   
 }
 
  @media (min-width: 300px) and (max-width: 1000px) {

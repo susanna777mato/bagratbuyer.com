@@ -18,6 +18,7 @@
     color: white;
     height: 250px;
     margin: 0;
+    font-family: "Montserrat", serif;
   }
   
   .h2-zagalovok {
@@ -26,7 +27,7 @@
   }
 
   h2, h3{
-    font-family: 'Uni Sans', sans-serif;
+    font-family: "Montserrat", serif;
   }
 
   hr{
@@ -81,6 +82,7 @@
 
   .text-vigodna{
     padding: 10px;
+    font-family: "Montserrat", serif;
   }
   
   .img {
