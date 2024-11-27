@@ -22,10 +22,10 @@ span{
     font-size: 20px;
 }
    
-a{
+  .politik{
     text-decoration: none;
-    color: black;
-    font-size: 26px;
+    color: rgb(23, 23, 23);
+    font-size: 20px;
   }
 
 .svg{
@@ -45,7 +45,7 @@ a{
   }
  
   a{
-    font-size: 20px;
+    font-size: 15px;
   }
 
   span {
